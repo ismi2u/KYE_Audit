@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackendServices", "BackendServices", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontendServices", "FrontendServices", "{8B9C9DEE-EBB4-40FE-9B09-C58EABDF0F4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{2AA6D680-8529-4D60-B86C-9002BC51FAF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionManagement.API", "BackendServices\ExceptionManagementService\ExceptionManagement.API\ExceptionManagement.API.csproj", "{B1A0FC2B-F0AF-4826-81AC-D2DDF1D08D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionManagement.Application", "BackendServices\ExceptionManagementService\ExceptionManagement.Application\ExceptionManagement.Application\ExceptionManagement.Application.csproj", "{E36C5DC1-7C4D-4E46-A8FE-031918C7FB40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionManagement.Infrastructure", "BackendServices\ExceptionManagementService\ExceptionManagement.Infrastructure\ExceptionManagement.Infrastructure\ExceptionManagement.Infrastructure.csproj", "{4C66A206-60AC-4835-9835-D2C4CEFE00D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExceptionManagementServices", "ExceptionManagementServices", "{A27D09FD-8B71-42AE-ABF1-B729F26056C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuditNotesServices", "AuditNotesServices", "{8F8104E7-2410-4938-8C5E-1A48AD89808F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseServices", "DatabaseServices", "{486A53B4-1AA5-4E6D-933E-B9B38C2698EA}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "KYE.Countries.Database", "DatabaseServices\KYE.Database\KYE.Countries.Database.sqlproj", "{B2A83719-66F4-419F-8016-6E6EE6044413}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "KYE.ExceptionLog.Database", "DatabaseServices\KYE.ExceptionLog.Database\KYE.ExceptionLog.Database\KYE.ExceptionLog.Database.sqlproj", "{0E754549-5FE2-40C1-A657-EE71E2D63782}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1A0FC2B-F0AF-4826-81AC-D2DDF1D08D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A0FC2B-F0AF-4826-81AC-D2DDF1D08D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A0FC2B-F0AF-4826-81AC-D2DDF1D08D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A0FC2B-F0AF-4826-81AC-D2DDF1D08D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E36C5DC1-7C4D-4E46-A8FE-031918C7FB40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36C5DC1-7C4D-4E46-A8FE-031918C7FB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E36C5DC1-7C4D-4E46-A8FE-031918C7FB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E36C5DC1-7C4D-4E46-A8FE-031918C7FB40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C66A206-60AC-4835-9835-D2C4CEFE00D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C66A206-60AC-4835-9835-D2C4CEFE00D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C66A206-60AC-4835-9835-D2C4CEFE00D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C66A206-60AC-4835-9835-D2C4CEFE00D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A83719-66F4-419F-8016-6E6EE6044413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A83719-66F4-419F-8016-6E6EE6044413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A83719-66F4-419F-8016-6E6EE6044413}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B2A83719-66F4-419F-8016-6E6EE6044413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A83719-66F4-419F-8016-6E6EE6044413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A83719-66F4-419F-8016-6E6EE6044413}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0E754549-5FE2-40C1-A657-EE71E2D63782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E754549-5FE2-40C1-A657-EE71E2D63782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E754549-5FE2-40C1-A657-EE71E2D63782}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0E754549-5FE2-40C1-A657-EE71E2D63782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E754549-5FE2-40C1-A657-EE71E2D63782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E754549-5FE2-40C1-A657-EE71E2D63782}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1A0FC2B-F0AF-4826-81AC-D2DDF1D08D8B} = {A27D09FD-8B71-42AE-ABF1-B729F26056C9}
+		{E36C5DC1-7C4D-4E46-A8FE-031918C7FB40} = {A27D09FD-8B71-42AE-ABF1-B729F26056C9}
+		{4C66A206-60AC-4835-9835-D2C4CEFE00D5} = {A27D09FD-8B71-42AE-ABF1-B729F26056C9}
+		{A27D09FD-8B71-42AE-ABF1-B729F26056C9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8F8104E7-2410-4938-8C5E-1A48AD89808F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B2A83719-66F4-419F-8016-6E6EE6044413} = {486A53B4-1AA5-4E6D-933E-B9B38C2698EA}
+		{0E754549-5FE2-40C1-A657-EE71E2D63782} = {486A53B4-1AA5-4E6D-933E-B9B38C2698EA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB127EB9-D79E-48D9-A50F-8BD4FA3F2357}
+	EndGlobalSection
+EndGlobal

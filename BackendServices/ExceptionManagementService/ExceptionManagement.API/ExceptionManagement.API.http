@@ -1,0 +1,7 @@
+@ExceptionManagement_API_HostAddress = https://localhost:5001
+
+GET {{ExceptionManagement_API_HostAddress}}/api/ExceptionLog
+Accept: application/json
+
+###
+

@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [admin]
+    WITH PASSWORD = N'cnw7lcz0|vt3gw0q{^sgo{jnmsFT7_&#$!~<mw`dpwye{shp', SID = 0xC4DAA0C546274141B2FBF3048A9180B4, DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+
